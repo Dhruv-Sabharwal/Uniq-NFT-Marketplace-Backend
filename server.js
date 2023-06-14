@@ -9,7 +9,7 @@ app.use(express.json({ limit: "50mb" }));
 
 app.use("/api/v1/nfts", nfts);
 app.use("*", (req, res) => {
-  res.status(404).json({ error: "not found" });
+  res.status(404).json({ error: "not found, use route /api/v1/nfts instead" });
 });
 
 export default app;
