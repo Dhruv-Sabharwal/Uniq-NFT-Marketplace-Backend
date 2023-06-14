@@ -2,6 +2,7 @@
 A NFT Marketplace
 
 Backend Server Deployment: https://uniq-backend.up.railway.app/
+<br>
 (Previously hosted on the Internet Computer Blockchain powered by the DFINITY foundation)
 
 Sample GET request:
